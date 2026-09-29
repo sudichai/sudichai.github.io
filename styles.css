@@ -183,6 +183,13 @@ a {
   margin-top: 0.75rem;
 }
 
+.hero-spec {
+  margin-top: 0.4rem;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
 .hero-line {
   font-size: 1.2rem;
   max-width: 34rem;
@@ -363,6 +370,40 @@ a {
   gap: 0.5rem;
 }
 
+.job-tags {
+  padding-left: 0;
+  margin-top: 0.6rem;
+}
+
+.job-tags li {
+  background: var(--accent-soft);
+  border-color: transparent;
+  color: var(--accent-deep);
+  font-weight: 600;
+}
+
+.job-summary {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.job-duties {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.duty h4 {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.duty p {
+  margin-top: 0.2rem;
+}
+
 /* ---------- Skills ---------- */
 
 .skill-group {
@@ -449,8 +490,19 @@ a {
     justify-content: flex-end;
   }
 
+.platform-strip-soft li {
+  border-style: dashed;
+  font-weight: 500;
+  color: var(--muted);
+}
+
   .avatar {
     width: 220px;
     height: 220px;
+  }
+
+  .job-duties {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
   }
 }
