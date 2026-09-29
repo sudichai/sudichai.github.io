@@ -372,7 +372,7 @@ a {
 
 .job-tags {
   padding-left: 0;
-  margin-top: 0.6rem;
+  margin-top: 0.7rem;
 }
 
 .job-tags li {
@@ -383,9 +383,26 @@ a {
 }
 
 .job-summary {
-  margin-top: 0.6rem;
+  margin-top: 0.4rem;
+  max-width: 36rem;
   font-size: 0.95rem;
   color: var(--muted);
+}
+
+.demo-list {
+  list-style: none;
+  margin-top: 0.4rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.demo-list strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.duty > p {
+  margin-top: 0.4rem;
 }
 
 .job-duties {
