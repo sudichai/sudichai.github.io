@@ -314,6 +314,11 @@ a {
 
 /* ---------- Work ---------- */
 
+.work-list {
+  display: grid;
+  gap: 1rem;
+}
+
 .work-card {
   max-width: 46rem;
   padding: 1.75rem;

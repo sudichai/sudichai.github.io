@@ -23,7 +23,7 @@ Personal portfolio of **Sudichai Suktan** (Presales Engineer, cybersecurity/netw
 - Impact numbers sourced from `C:\Users\User\Desktop\VR_Material`: 60+ client engagements (37 Sangfor + 25 Sophos folders), 30+ POC evaluations, 10+ POC playbooks, 10+ battlecards, 2 partner trainings, 15+ certifications
 - **Trellix = working knowledge only** (dashed soft chip), never listed as demoed; demoed vendors: Sangfor (incl. HCI), Sophos, Hillstone; Zscaler/Arista = hands-on engineering (soft chips in hero)
 - Certifications section kept deliberately quiet — not a highlight
-- Demo post link: https://lnkd.in/p/ewcS6thK
+- Post links: NGFW demo https://lnkd.in/p/ewcS6thK · DLP test https://lnkd.in/p/ddw8HBdU
 
 ## Tooling notes (this machine, Windows)
 - LibreOffice at `C:\Program Files\LibreOffice\program\soffice.exe` — convert docx→pdf directly (the docx skill's soffice.py wrapper fails on Windows; call soffice.exe with `-env:UserInstallation=file:///C:/Users/User/AppData/Local/Temp/opencode/lo_profile`)
