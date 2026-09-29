@@ -524,6 +524,12 @@ a {
     justify-content: flex-end;
   }
 
+.chips-soft li {
+  border-style: dashed;
+  color: var(--muted);
+  font-weight: 500;
+}
+
 .platform-strip-soft li {
   border-style: dashed;
   font-weight: 500;
