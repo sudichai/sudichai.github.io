@@ -435,11 +435,27 @@ a {
 }
 
 .chips li {
+  display: inline-flex;
+  align-items: center;
   padding: 0.3rem 0.85rem;
   font-size: 0.85rem;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-chip);
+}
+
+.chip-logo {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  margin-right: 6px;
+}
+
+.company-logo {
+  height: 18px;
+  width: auto;
+  vertical-align: -4px;
+  margin-right: 6px;
 }
 
 /* ---------- Contact ---------- */
