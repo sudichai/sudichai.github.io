@@ -190,6 +190,12 @@ a {
   color: var(--muted);
 }
 
+.hero-loc {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
 .hero-line {
   font-size: 1.2rem;
   max-width: 34rem;
@@ -432,6 +438,11 @@ a {
   gap: 0.5rem;
   list-style: none;
   margin-top: 0.6rem;
+}
+
+.cert-summary {
+  max-width: 36rem;
+  margin-bottom: 0.9rem;
 }
 
 .chips li {
